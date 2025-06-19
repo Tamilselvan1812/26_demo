@@ -6,15 +6,18 @@ import reportWebVitals from './reportWebVitals';
 import Userinfo from './components/UserInfo';
 import Counter from './components/Counter';
 import Hooks from './components/Hooks';
+import Facebook from './components/Facebook';
+import './components/Facebook.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Hooks/>
+    {/* <Hooks/> */}
     {/* <App /> */}
       {/* <Userinfo/>  */}
       {/* <Counter/> */}
-      
+      <Facebook/>
   </React.StrictMode>
 );
 
