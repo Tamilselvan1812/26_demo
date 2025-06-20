@@ -6,18 +6,25 @@ import reportWebVitals from './reportWebVitals';
 import Userinfo from './components/UserInfo';
 import Counter from './components/Counter';
 import Hooks from './components/Hooks';
-import Facebook from './components/Facebook';
-import './components/Facebook.css';
+import Facebook from './components/Facebook';    // import './components/Facebook.css';
+import PassHideShow from './components/PassHideShow';
+import BulbToggle from './components/BulbToggle';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Hooks/> */}
     {/* <App /> */}
-      {/* <Userinfo/>  */}
-      {/* <Counter/> */}
-      <Facebook/>
+
+    {/* <Hooks/> */}
+    {/* <Userinfo/>  */}
+    {/* <Counter/> */}
+    {/* <Facebook/> */}
+    {/* <PassHideShow/> */}
+    <BulbToggle />
+
   </React.StrictMode>
 );
 

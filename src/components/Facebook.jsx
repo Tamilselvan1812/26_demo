@@ -12,7 +12,7 @@ function Facebook(){
         <div>
             <div className="container">
             
-           <img src="/download.jpg" alt="" />
+           <img src="/download.jpg" alt="img" />
 
             <div className="section">
             <button onClick={()=>setLike(like+1)}>Like:{like}</button>
