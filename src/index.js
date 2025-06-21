@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 import Userinfo from './components/UserInfo';
 import Counter from './components/Counter';
 import Hooks from './components/Hooks';
 import Facebook from './components/Facebook';    // import './components/Facebook.css';
 import PassHideShow from './components/PassHideShow';
 import BulbToggle from './components/BulbToggle';
+import Productcard from './components/Productcard'; import'./components/Productcard.css';
+import products from './components/products.json'; 
 
 
 
@@ -23,7 +26,15 @@ root.render(
     {/* <Counter/> */}
     {/* <Facebook/> */}
     {/* <PassHideShow/> */}
-    <BulbToggle />
+    {/* <BulbToggle /> */}
+<div className="products-row">
+    {
+      products.map((product)=>(
+        <Productcard data = {product}/>                               // props =  <Productcard name="watch" img=""/>
+      ))
+      
+    }
+  </div>
 
   </React.StrictMode>
 );

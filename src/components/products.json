@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Daikin 1.5 Ton 3 Star Inverter AC",
+    "price": 1000,
+    "img": "https://m.media-amazon.com/images/I/61JyEPdw3UL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Split AC with PM 2.5 filter, triple display, Dew Clean tech, Coanda Airflow."
+  },
+  {
+    "name": "Samsung 1 Ton 4 Star Digital Inverter AC",
+    "price": 1200,
+    "img": "https://m.media-amazon.com/images/I/6179B4CYGTL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Digital Inverter, Easy Filter Plus, Auto Clean, Stabilizer Free Operation."
+  },
+  {
+    "name": "LG 1.5 Ton 5 Star AI Dual Inverter Split AC",
+    "price": 1350,
+    "img": "https://m.media-amazon.com/images/I/61mOVGinDdL._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Dual Inverter, HD Filter, Ocean Black Protection, Low Gas Detection."
+  },
+  {
+    "name": "Voltas 1.4 Ton 3 Star Inverter Split AC",
+    "price": 999,
+    "img": "https://m.media-amazon.com/images/I/41BJCIurt6L._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "High Ambient Cooling, Anti-Dust Filter, Stabilizer Free Operation."
+  },
+  {
+    "name": "Blue Star 1.5 Ton 3 Star Fixed Speed Split AC",
+    "price": 1100,
+    "img": "https://m.media-amazon.com/images/I/416aYDOny1L._AC_UL480_FMwebp_QL65_.jpg",
+    "description": "Copper condenser, Dust Filter, Turbo Cool, Comfort Sleep."
+  }
+  
+  
+]

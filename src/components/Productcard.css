@@ -1,0 +1,21 @@
+.products-row{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.container {
+ 
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
+}
+
+.container img {
+ 
+  width: 100%;
+
+
+}
