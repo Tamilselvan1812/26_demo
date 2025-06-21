@@ -30,7 +30,7 @@ root.render(
 <div className="products-row">
     {
       products.map((product)=>(
-        <Productcard data = {product}/>                               // props =  <Productcard name="watch" img=""/>
+        <Productcard data = {product}/>                               //  <Productcard name="watch" img=""/> - props
       ))
       
     }
