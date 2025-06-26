@@ -10,7 +10,7 @@ import Hooks from './components/Hooks';
 import Facebook from './components/Facebook';    // import './components/Facebook.css';
 import PassHideShow from './components/PassHideShow';
 import BulbToggle from './components/BulbToggle';
-import Productcard from './components/Productcard'; import'./components/Productcard.css';
+import Productcard from './components/Productcard';// import'./components/Productcard.css';
 import products from './components/products.json'; 
 
 
@@ -19,7 +19,7 @@ import products from './components/products.json';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+     <App /> 
 
     {/* <Hooks/> */}
     {/* <Userinfo/>  */}
@@ -27,14 +27,14 @@ root.render(
     {/* <Facebook/> */}
     {/* <PassHideShow/> */}
     {/* <BulbToggle /> */}
-<div className="products-row">
+    {/* <div className="products-row">
     {
       products.map((product)=>(
         <Productcard data = {product}/>                               //  <Productcard name="watch" img=""/> - props
       ))
       
     }
-  </div>
+    </div> */}
 
   </React.StrictMode>
 );
