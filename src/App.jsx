@@ -3,6 +3,8 @@ import './App.css';
 import Parent from './components/propsDrilling/Parent';
 import { createContext } from 'react';
 import UseRefDemo from './components/learnUseRef/UseRefDemo';
+import UseEffectDemo from './components/learnUseEffect/UseEffectDemo';
+import TimerApp from './components/learnUseEffect/TimerApp';
 
 
 
@@ -18,7 +20,9 @@ function App() {
         <Parent/>
       </personContext.Provider>  */}
 
-      <UseRefDemo/>
+      {/* <UseRefDemo/> */}
+      {/* <UseEffectDemo/> */}
+      <TimerApp/>
     </div>
   );
 }
