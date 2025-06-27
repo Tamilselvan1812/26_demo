@@ -7,11 +7,11 @@ import reportWebVitals from './reportWebVitals';
 import Userinfo from './components/UserInfo';
 import Counter from './components/Counter';
 import Hooks from './components/Hooks';
-import Facebook from './components/Facebook';    // import './components/Facebook.css';
+import Facebook from './components/Facebook/Facebook';     //import './components/Facebook/Facebook.css';
 import PassHideShow from './components/PassHideShow';
 import BulbToggle from './components/BulbToggle';
-import Productcard from './components/Productcard';// import'./components/Productcard.css';
-import products from './components/products.json'; 
+import Productcard from './components/Productcard/Productcard'; //import'./components/Productcard/Productcard.css';
+import products from './components/Productcard/products.json'; 
 
 
 
@@ -30,7 +30,7 @@ root.render(
     {/* <div className="products-row">
     {
       products.map((product)=>(
-        <Productcard data = {product}/>                               //  <Productcard name="watch" img=""/> - props
+        <Productcard data = {product}/>                     //  <Productcard name="watch" img=""/> - props
       ))
       
     }
