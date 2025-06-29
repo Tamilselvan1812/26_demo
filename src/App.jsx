@@ -10,12 +10,15 @@ import Home from './components/learnRouter/Home';
 import Contact from './components/learnRouter/Contact';
 import Blogs from './components/learnRouter/Blogs';
 import Layout from './components/learnRouter/Layout';
+import PayilagamLandingPage from './components/PayilagamPage/PayilagamLandingPage';
+import './components/PayilagamPage/PayilagamLandingPage.css'; // CSS File
+
 
 
 export const personContext = createContext();
 
 function App() {
-  const person = { personname: "Tamilselvan" };
+  // const person = { personname: "Tamilselvan" };
 
   return (
     <div>
@@ -28,15 +31,18 @@ function App() {
       {/* <UseEffectDemo/> */}
       {/* <TimerApp/> */}
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>           {/* When the user visits /, show the <Home />  */}
-             <Route index element={<Home />} />           {/*  component inside <Layout /> by default*/}   
+          <Route path="/" element={<Layout />}>                                 
+             <Route index element={<Home />} />                                    
             <Route path='/Blogs' element={<Blogs />} />        
             <Route path='/Contact' element={<Contact />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      
+      <PayilagamLandingPage/>
 
 
     </div>
