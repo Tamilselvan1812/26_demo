@@ -46,7 +46,7 @@ function PayilagamLandingPage() {
           </a>
           <ul className="nav-links">
             <li><a href="#" className="active">Home</a></li>
-            <li><a href="#">Courses</a></li>
+            <li><a href="#" >Courses</a></li>
             <li><a href="#">Resources</a></li>
             <li><a href="#">Placement</a></li>
             <li><a href="#">Video Reviews</a></li>
