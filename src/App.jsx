@@ -10,8 +10,11 @@ import Home from './components/learnRouter/Home';
 import Contact from './components/learnRouter/Contact';
 import Blogs from './components/learnRouter/Blogs';
 import Layout from './components/learnRouter/Layout';
-import PayilagamLandingPage from './components/PayilagamPage/PayilagamLandingPage';
-import './components/PayilagamPage/PayilagamLandingPage.css'; // CSS File
+import PayilagamLandingPage from './components/PayilagamPage/PayilagamLandingPage';//import './components/PayilagamPage/PayilagamLandingPage.css'; // CSS File
+
+import WeatherApp from './components/WeatherApp/WeatherApp';
+import  './components/WeatherApp/WeatherApp.css';
+
 
 
 
@@ -42,7 +45,9 @@ function App() {
       </BrowserRouter> */}
 
       
-      <PayilagamLandingPage/>
+      {/* <PayilagamLandingPage/> */}
+
+      <WeatherApp/>
 
 
     </div>
