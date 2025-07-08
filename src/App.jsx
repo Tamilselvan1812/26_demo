@@ -13,8 +13,12 @@ import Layout from './components/learnRouter/Layout';
 import PayilagamLandingPage from './components/PayilagamPage/PayilagamLandingPage';
 //import './components/PayilagamPage/PayilagamLandingPage.css'; // CSS File
 
-import WeatherApp from './components/WeatherApp/WeatherApp';
+import WeatherApp from './components/WeatherApp/WeatherApp'; 
 // import  './components/WeatherApp/WeatherApp.css';
+
+
+
+
 
 
 
@@ -50,6 +54,7 @@ function App() {
 
       {/* <WeatherApp/> */}
 
+   
 
     </div>
   );
